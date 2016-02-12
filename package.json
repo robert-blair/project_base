@@ -1,0 +1,24 @@
+{
+  "name": "project_base",
+  "version": "0.0.0",
+  "description": "a starting point for future projects",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-blair/project_base.git"
+  },
+  "keywords": [
+    "project",
+    "base",
+    "start"
+  ],
+  "author": "robert blair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robert-blair/project_base/issues"
+  },
+  "homepage": "https://github.com/robert-blair/project_base#readme"
+}
