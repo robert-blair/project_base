@@ -1,0 +1,8 @@
+*{
+    lost-utility: edit;
+    border: solid 1.3px black;
+
+}
+*:hover{
+    border: solid 2px orange;
+}
