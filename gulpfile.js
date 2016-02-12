@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const gulpUglify = require("gulp-uglify");
 //const gulpChanged = require("gulp-changed");
 
 // const concat = require('gulp-concat');
@@ -7,7 +8,7 @@ const gulp = require('gulp');
  const sourcemaps = require('gulp-sourcemaps');
 // const del = require('del');
 
-
+const gulpCssnano = require('gulp-cssnano');
 const gulp_postcss = require( "gulp-postcss" );
 const cssnext = require( "postcss-cssnext" );
 const lost = require('lost');
@@ -36,6 +37,7 @@ gulp.task('css',  () => {
         .pipe(sourcemaps.init())
         .pipe(gulp_postcss(processors))
         .pipe(rucksack())
+        .pipe(gulpCssnano())
         .pipe(sourcemaps.write('./gulp_sourcemaps'))
         .pipe(gulp.dest(dstCss));
 });
