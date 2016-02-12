@@ -1,0 +1,5 @@
+#Standard files/folders to ignore for Git/GitHub
+
+node_modules
+.idea
+.vscode
