@@ -1,2 +1,6 @@
 # project_base
-The base of projects I'll be making. (GulpFile, etc)
+Purpose
+: The base of projects I'll be making. (GulpFile, etc)
+
+
+### Being intelligent about structure and names
