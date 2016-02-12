@@ -2,5 +2,8 @@
 Purpose
 : The base of projects I'll be making. (GulpFile, etc)
 
+###Stylesheets
 
-### Being intelligent about structure and names
+Looked after through the gulpfile. 
+
+Runs PostCSS, cssnext, lost and some others.
